@@ -4,15 +4,34 @@
         <meta charset="utf-8">
         <title>Arts and Crafts</title>
         <link rel="stylesheet" href="../Scripts/styles.css">
+        
     </head>
 
     <body>
         <h1>Arts and Crafts</h1>
 
+        <h3 style="color: red;">Flameskull</h3>
+
         <div id="sprite-container">
             <div id="sprite-image">
+                <script src="../Scripts/main.js"></script>
             </div>
         </div>
+        <br>
+        <div id="sprite-container">
+            <button class="button" onclick="startAnimation(5, 0, 0)">Idle</button>
+            <button class="button" onclick="startAnimation(6, 320, 0)">Walk Right</button>
+            <button class="button">Walk Left</button>
+            <button class="button">Attack Right</button>
+            <button class="button">Attack Left</button>
+            <button class="button">Hurt Right</button>
+            <button class="button">Hurt Left</button>
+            <button class="button">Dying</button>
+            <button class="button">Dead</button>
+            <button class="button">Dance</button>
+        </div>
+
+        
         <br>
         <p><a href="../index.html">Back to home</a></p>
     </body>

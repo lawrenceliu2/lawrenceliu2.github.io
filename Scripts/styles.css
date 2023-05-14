@@ -8,5 +8,33 @@ p{text-align:center}
 a:link{color:#58a6ff}
 a:visited{color:#8e96f0}}
 
-#sprite-image {height: 64px;width: 64px;background: url("../Resources/flameskull/flameskull.png") 0px 0px;
+#sprite-image {
+    height: 64px;
+    width: 64px;
+    background: url("../Resources/flameskull/flameskull.png") 0px 0px;
+}
+
+#sprite-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 60px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 0px 3px;
+  }
+
+.button:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
 }
