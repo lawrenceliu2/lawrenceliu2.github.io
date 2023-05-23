@@ -8,11 +8,6 @@ p{text-align:center}
 a:link{color:#58a6ff}
 a:visited{color:#8e96f0}}
 
-#sprite-image {
-    height: 64px;
-    width: 64px;
-    background: url("../Resources/flameskull/flameskull.png") 0px 0px;
-}
 
 #sprite-container{
     display: flex;

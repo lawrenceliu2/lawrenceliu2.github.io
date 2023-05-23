@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Arts and Crafts</title>
         <link rel="stylesheet" href="../Scripts/styles.css">
-        
+        <script src="../Scripts/main.js"></script>
     </head>
 
     <body>
@@ -13,27 +13,34 @@
         <h3 style="color: red;">Flameskull</h3>
 
         <div id="sprite-container">
-            <div id="sprite-image">
-                <script src="../Scripts/main.js"></script>
-            </div>
+            <img id="sprite" src="../Resources/flameskull/idle.gif" />
         </div>
         <br>
         <div id="sprite-container">
-            <button class="button" onclick="startAnimation(5, 0, 0)">Idle</button>
-            <button class="button" onclick="startAnimation(6, 320, 0)">Walk Right</button>
-            <button class="button">Walk Left</button>
-            <button class="button">Attack Right</button>
-            <button class="button">Attack Left</button>
-            <button class="button">Hurt Right</button>
-            <button class="button">Hurt Left</button>
-            <button class="button">Dying</button>
-            <button class="button">Dead</button>
-            <button class="button">Dance</button>
+            <button class="button" onclick="changeImage('../Resources/flameskull/idle.gif')">Idle</button>
+            <button class="button" onclick="changeImage('../Resources/flameskull/walk_right.gif')">Walk Right</button>
+            <button class="button" onclick="changeImage('../Resources/flameskull/walk_left.gif')">Walk Left</button>
+            <button class="button" onclick="changeImage('../Resources/flameskull/attack_right.gif')">Attack Right</button>
+            <button class="button" onclick="changeImage('../Resources/flameskull/attack_left.gif')">Attack Left</button>
+            <button class="button" onclick="changeImage('../Resources/flameskull/damage_right.gif')">Hurt Right</button>
+            <button class="button" onclick="changeImage('../Resources/flameskull/damage_left.gif')">Hurt Left</button>
+            <button class="button" onclick="changeImage('../Resources/flameskull/death.gif')">Dying</button>
+            <button class="button" onclick="changeImage('../Resources/flameskull/dance.gif')">Dance</button>
         </div>
-        <button class="button" onclick="stopAnimation()">STOP</button>
-        <button class="button" onclick="test(128,64)">test</button>
+        <br>
 
-        
+        <h3 style="color: green">Zombie Wolfie</h3>
+        <div id="sprite-container">
+            wolfie stuff go here
+        </div>
+        <br>
+
+        <h3 style="color: grey">O.D.D.I.T.Y</h3>
+        <div id="sprite-container">
+            oddity stuff go here
+        </div>
+        <br>
+
         <br>
         <p><a href="../index.html">Back to home</a></p>
     </body>
