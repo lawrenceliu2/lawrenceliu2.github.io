@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Arts and Crafts</title>
         <link rel="stylesheet" href="../Scripts/styles.css">
-        <script src="../Scripts/main.js"></script>
+        <script src="../Scripts/main.js" defer></script>
     </head>
 
     <body>
@@ -17,16 +17,17 @@
         </div>
         <br>
         <div id="sprite-container">
-            <button class="button" onclick="changeImage('../Resources/flameskull/idle.gif')">Idle</button>
-            <button class="button" onclick="changeImage('../Resources/flameskull/walk_right.gif')">Walk Right</button>
-            <button class="button" onclick="changeImage('../Resources/flameskull/walk_left.gif')">Walk Left</button>
-            <button class="button" onclick="changeImage('../Resources/flameskull/attack_right.gif')">Attack Right</button>
-            <button class="button" onclick="changeImage('../Resources/flameskull/attack_left.gif')">Attack Left</button>
-            <button class="button" onclick="changeImage('../Resources/flameskull/damage_right.gif')">Hurt Right</button>
-            <button class="button" onclick="changeImage('../Resources/flameskull/damage_left.gif')">Hurt Left</button>
-            <button class="button" onclick="changeImage('../Resources/flameskull/death.gif')">Dying</button>
-            <button class="button" onclick="changeImage('../Resources/flameskull/dance.gif')">Dance</button>
+            <button class="button" id="idle">Idle</button>
+            <button class="button" id="walk_right">Walk Right</button>
+            <button class="button" id="walk_left">Walk Left</button>
+            <button class="button" id="attack_right">Attack Right</button>
+            <button class="button" id="attack_left">Attack Left</button>
+            <button class="button" id="damage_right">Hurt Right</button>
+            <button class="button" id="damage_left">Hurt Left</button>
+            <button class="button" id="death">Dying</button>
+            <button class="button" id="dance">Dance</button>
         </div>
+        <p>A little fella made for a game dev class. Spriting it felt like a adult coloring book, very fun.</p>
         <br>
 
         <h3 style="color: green">Zombie Wolfie</h3>
