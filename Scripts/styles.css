@@ -9,10 +9,15 @@ a:link{color:#58a6ff}
 a:visited{color:#8e96f0}}
 
 
-#sprite-container{
+#center-container{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#wolfie{
+    max-width: 100%;
+    max-height: 100%
 }
 
 .button {
@@ -32,4 +37,23 @@ a:visited{color:#8e96f0}}
     background-color: white;
     color: #4CAF50;
     border: 2px solid #4CAF50;
+}
+
+.wolfie_button {
+    width: 60px;
+    background-color: #e83a3a;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 0px 3px;
+  }
+
+.wolfie_button:hover {
+    background-color: white;
+    color: #e83a3a;
+    border: 2px solid #e83a3a;
 }
