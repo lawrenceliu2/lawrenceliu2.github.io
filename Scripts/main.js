@@ -55,6 +55,27 @@ function setup(){
   button.addEventListener('click', function(){
     changeImage("wolfie","../Resources/Wolfie/Zombie_Wolfie_Eating.gif")
   });
+
+  button = document.getElementById('angled_bottom');
+  button.addEventListener('click', function(){
+    changeImage("oddity","../Resources/ODDITY/O.D.D.I.T.Y Angled Bottom.png")
+  });
+  button = document.getElementById('angled_top');
+  button.addEventListener('click', function(){
+    changeImage("oddity","../Resources/ODDITY/O.D.D.I.T.Y Angled Top.png")
+  });
+  button = document.getElementById('bottom');
+  button.addEventListener('click', function(){
+    changeImage("oddity","../Resources/ODDITY/O.D.D.I.T.Y Bottom.png")
+  });
+  button = document.getElementById('side');
+  button.addEventListener('click', function(){
+    changeImage("oddity","../Resources/ODDITY/O.D.D.I.T.Y Side.png")
+  });
+  button = document.getElementById('top');
+  button.addEventListener('click', function(){
+    changeImage("oddity","../Resources/ODDITY/O.D.D.I.T.Y Top.png")
+  });
 }
 
 setup();
